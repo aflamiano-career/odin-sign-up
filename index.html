@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Odin Sign-up</title>
+  </head>
+  <body>
+    <main>
+      <header class="form-header">
+        <div class="logo-wrapper">
+          <img src="images/odin-lined.png" alt="top logo" />
+          <h1>ODIN</h1>
+        </div>
+      </header>
+      <section class="form-section">
+        <div class="description">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </p>
+          <p>Sign up <em>now</em> to get started.</p>
+          <br />
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <form id="sign-up-form" action="" method="get">
+          <h1>Let's do this!</h1>
+          <ul>
+            <li>
+              <p>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="fname" id="first-name" />
+              </p>
+              <p>
+                <label for="first-name">LAST NAME</label>
+                <input type="text" name="lname" id="last-name" />
+              </p>
+            </li>
+            <li>
+              <p>
+                <label for="email-ad">EMAIL</label>
+                <input type="email" name="email" id="email-ad" />
+              </p>
+              <p>
+                <label for="phone-no">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone-no" />
+              </p>
+            </li>
+            <li>
+              <p>
+                <label for="password">PASSWORD</label
+                ><input type="password" name="password" id="password" />
+              </p>
+              <p>
+                <label for="cpassword">CONFIRM PASSWORD</label
+                ><input type="password" name="cpassword" id="cpassword" />
+              </p>
+            </li>
+          </ul>
+        </form>
+        <div class="cta">
+          <button type="submit" form="sign-up-form">Create Account</button>
+
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

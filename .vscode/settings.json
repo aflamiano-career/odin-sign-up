@@ -1,0 +1,8 @@
+{
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe",
+  "liveServer.settings.NoBrowser": false
+}

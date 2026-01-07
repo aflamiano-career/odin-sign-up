@@ -1,0 +1,144 @@
+@font-face {
+  font-family: norse-bold;
+  src: url(font/Norse-Bold.otf);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+main {
+  height: 910px;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  border: #000 1px solid;
+  background-color: rgb(249, 250, 252);
+}
+
+.form-header {
+  flex: 0.35;
+  height: 100%;
+  background-image: url(images/odin-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: start;
+}
+
+.logo-wrapper {
+  margin-top: 40%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo-wrapper img {
+  width: 80px;
+}
+
+.logo-wrapper h1 {
+  font-family: norse-bold, sans-serif;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.form-section {
+  flex: 0.65;
+}
+
+.description {
+  padding: 0 10rem 3rem 3rem;
+}
+
+#sign-up-form {
+  background-color: #fff;
+  padding: 1rem 3rem;
+}
+
+#sign-up-form h1 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#sign-up-form ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#sign-up-form ul li {
+  display: flex;
+}
+
+#sign-up-form ul li p {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+
+#sign-up-form ul li p label {
+  font-size: 0.675rem;
+  letter-spacing: 0.125rem;
+}
+
+#sign-up-form input {
+  border-radius: 3px;
+  border: 1px solid #e5e7eb;
+  width: 250px;
+  height: 30px;
+}
+
+#sign-up-form input:invalid {
+  border: 1px solid #ff0000;
+}
+
+#sign-up-form input:focus input:focus-visible {
+  border: 1px solid #0000ff;
+}
+
+#sign-up-form input[type="password"] {
+  border: 1px solid #ff0000;
+}
+
+.cta {
+  font-size: 1rem;
+  padding-left: 3rem;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+  margin: 2rem 0;
+  padding: 0.5rem 2.5rem;
+  background-color: #71a3c1;
+  border: none;
+  border-radius: 6px;
+}
+
+button[type="submit"]:hover {
+  background-color: #dce7e3;
+}
+
+button[type="submit"]:active {
+  background-color: #93a8ac;
+}
+
+a {
+  text-decoration: none;
+  color: #71a3c1;
+}
